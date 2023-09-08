@@ -8,14 +8,7 @@ app.use(cors());
 
 const port = process.env.PORT || 3001
 
-const user = [
-    {
-        id:uuidv4() ,
-        name: "Enzo Felipe",
-        age: 15,
-        city: "Mogi das Cruzes"
-    }
-];
+const user = [];
 
 
  app.get("/", (req, res) => {
